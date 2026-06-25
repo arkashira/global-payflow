@@ -1,0 +1,10 @@
+[project]
+name = "global-payflow-crypto-adapter"
+version = "0.1.0"
+description = "ERC20 transfer adapter for Ethereum network"
+requires-python = ">=3.8"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
